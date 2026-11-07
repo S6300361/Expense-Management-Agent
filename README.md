@@ -49,3 +49,6 @@ git commit -m "Initial expense management agent"
 ```
 
 Check that `.env` and `database/expenses.db` are not staged.
+
+## App Link
+https://xpenseflow.streamlit.app/
