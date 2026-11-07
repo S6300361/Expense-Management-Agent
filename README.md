@@ -4,27 +4,27 @@ A Python + Streamlit expense tracker with optional OpenAI natural-language extra
 
 ## Requirements
 - Python 3.10+
-- An OpenAI API key for AI entry (manual entry works without it)
+- A Gemini API key for AI entry (manual entry works without it)
 
-## Windows PowerShell setup
+## setup
 
-```powershell
+```
 cd path\to\Expense_Management_Agent
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
-Add your OpenAI API key to `.env` for AI entry. The manual-entry and database features do not require an API key.
+Add your API key to `.env` for AI entry. The manual-entry and database features do not require an API key.
 
 ## Run
 
-```powershell
+```
 python -m streamlit run app.py
 ```
 
 ## Features
-- Natural-language expense extraction into validated JSON (OpenAI API)
+- Natural-language expense extraction into validated JSON
 - Manual expense entry
 - JSON stored in SQLite
 - Dashboard filters discovered from available JSON fields
@@ -41,7 +41,7 @@ python -m streamlit run app.py
 
 ## Git initialization
 
-```powershell
+```
 git init
 git status
 git add .
