@@ -1,0 +1,6 @@
+streamlit>=1.40
+google-genai
+python-dotenv>=1.0
+pydantic>=2.8
+pandas>=2.2
+plotly>=5.24
